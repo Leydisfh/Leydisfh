@@ -1,0 +1,53 @@
+
+
+.title{
+    margin: .5rem;
+}
+
+
+
+.title__profile{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    
+}
+.title__bio, .title__subsection{
+    font-weight: 550;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.title__network{
+    display: flex;
+   justify-content: center;
+   padding: 1rem;
+}
+.title__network__item{
+    display: flex;
+    margin-right: 1rem;
+   
+}
+.title__network__item:hover{
+    text-decoration: underline var(--purple) .15rem;
+}
+
+.title__network__item::before{
+    content: url(../assets/arrow.png);
+    padding-right: 0.5rem;
+}
+
+@media screen and (min-width:480px) {
+    .title__network__item{
+       margin-right: 3rem;
+       font-size: 1.1rem;
+
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .title__network{
+        justify-content: space-evenly;
+        font-size: 1.4rem;
+    }
+}

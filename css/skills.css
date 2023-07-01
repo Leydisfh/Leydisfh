@@ -1,0 +1,37 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+
+.skills__title{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--purple);
+    font-weight: 600;
+}
+.skills__line{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.skills__box{
+    text-align: center;
+    margin-right: .5rem;
+}
+.skills__img{
+    padding: 0.5rem;
+}
+
+
+@media screen and (min-width:480px) {
+    .skills__line{
+        justify-content: center;
+    }
+    .skills__box{
+        margin-right: 2rem;
+    }
+}
+
+
+

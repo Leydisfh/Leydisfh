@@ -1,0 +1,7 @@
+.about__container{
+    margin-left: .5rem;
+}
+
+.about__title{
+    color: var(--purple);
+}

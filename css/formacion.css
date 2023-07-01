@@ -1,0 +1,32 @@
+.academic{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.academic__title{
+    width: 100%;
+    text-align: center;
+    color: var(--purple);
+    font-weight: 600;
+    padding: .5rem;
+}
+.academic__courses{
+   /* margin: auto;*/
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    justify-content: space-around;
+    padding: 0;
+}
+
+@media screen and (min-width:480px){
+    .academic__title{
+        padding: 1rem;
+    }
+    .academic__courses{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+}
+
