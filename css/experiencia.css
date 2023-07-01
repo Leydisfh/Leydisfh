@@ -1,7 +1,16 @@
 .experience{
+    display: flex;
+    flex-direction: column;
     margin-top: 5rem;
     text-align: center;
-    justify-content: center;
+    align-items: center;
+}
+.experience__box{
+    margin-bottom: 2rem;
+    width: 70%;
+    height: 28rem;
+    border-radius: 5px;
+    box-shadow: rgba(32, 32, 32, 0.3) 1px 1px 1px 1px;
 }
 
 .experience__section__title{
@@ -10,30 +19,42 @@
     color: var(--purple);
     font-weight: 600;
 }
+.experience__info{
+    display: flex;
+    flex-direction: column;
+}
 .experience__title{
     font-size: 1.2rem;
 }
 .experience__text{
     font-size: .8rem;
 }
+.experiencie__img{
+    width: 100%;
+    height: 18rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+.experiencie__imgs{
+width: 100%;
+height: 9rem;
+background-repeat: no-repeat;
+background-position: center;
+background-size:contain;
+}
 
-.experience__img{
-    width: 50%;
-    height:250px ;
-    
-}
-.img2{
-    height: 100px;
-}
-.experience__description{
-    margin-bottom: 3rem;
- }
+.img01{ background-image: url(../assets/encriptador.png);}
+.img02{background-image: url(../assets/lista-tareas.png);}
+.img03{background-image: url(../assets/fruteria.png);}
+.img04{background-image: url(../assets/fruteria02.png);}
 
 .experiencia__botao--repo,
 .experience__botao--demo{
     background-color: #914e9a;  
     font-size: .7rem;
     padding: .55rem;
+    margin-top: 1rem;
     font-weight: 600;
     color: var(--cor-de-fundo);
     border: none;
@@ -46,58 +67,40 @@
     background-color: #820d92;
 }
 
-@media screen and (min-width:480px) {
-    .experience__section__title{
-        padding: 1rem;
-    }
-    .experience__description{
-        margin-bottom: 4rem;
-    }
-    .experience__img{
-        width: 30%;
-        height:150px;
-    }
-    .img2{
-        height: 100px;
-    }
-}
 
 @media screen and (min-width:750px) {
     .experience{
         display: flex;
         flex-wrap: wrap;
+        flex-direction: row;
         justify-content: space-around;
+
+       
+     }
+     .experience__box{
+        width: 35%;
      }
      .experience__section__title{
         width: 100%;
      }
-    .experience__img{
-        width: 70%;
-        height: 180px;
-        
-     }
-     .img2{
-         width: 70%;
-         height: 90px;
-     }
+    
+     
 }
 
 @media screen and (min-width:992px) {
 
 .experience__box{
    width: 25%;
+
 }
    
  .experience__section__title{
     margin-bottom:3rem ;
  }
+ .experience__info{
+    display: flex;
+    flex-direction: column;
+}
 
-    .experience__img{
-       width: 70%;
-       height: 16rem;
-    }
-    .img2{
-        width: 70%;
-        height: 8rem;
-    }
+   
 }

@@ -1,5 +1,6 @@
 .about__container{
-    margin-left: .5rem;
+    padding: .5rem;
+  margin-left: 2rem;
 }
 
 .about__title{
