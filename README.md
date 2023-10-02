@@ -1,5 +1,8 @@
+<header >
+ <img src="https://user-images.githubusercontent.com/108436506/272101477-a6b8eaa4-dd9e-44df-9991-ce4da692e450.jpg" width="100%" height="150"  >
+</header>
 
-<h2 align="center">
+<h2 align="center" >
  👩🏻‍💻 Hi, I am Leydis Fernandez! 
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
 </h2>
